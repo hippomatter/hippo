@@ -1,8 +1,15 @@
 GCP VM Instant : jsontravelandmatch
 SSH Console at http://34.42.53.74
 
+
 $ source venv/bin/activate
 $ export FLASK_APP=JsonLearnAndMatch.py
-$ python3 -m flask run --host=0.0.0.0
+//$ python3 -m flask run --host=0.0.0.0 // next command keeps APP running in background
+$ nohup python3 -m flask run --host=0.0.0.0 & 
 OR
 $ python3 JsonLearnAndMatch.py --host-0.0.0.0
+
+check port 5000
+$ lsof -i :5000
+$ kill -9 <PID>
+
