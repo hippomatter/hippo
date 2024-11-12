@@ -1,4 +1,4 @@
 curl -X POST \
      -H "Content-Type: application/json" \
-     -d '{"Customer Name": "John Doe", "Customer ID": "ABC123", "Date of Birth": "1985-07-15", "Address": "123 Main St, Anytown USA", "Wallet Address": "0x123456789abcdef0123456789abcdef01234567", "Account Number": "987654321", "Passport Number": "A1234567"}' \
-     http://34.42.53.74:5000/categorize
+     -d '{"Customer Name": "John Doe", "Customer ID": "ABC123", "Date of Birth": "1985-07-15", "Address": "123 Main St, Anytown USA", "Wallet Address": "0x123456789abcdef0123456789abcdef01234567", "hkid": "987654321", "Passport Number": "A1234567", "Place of Birth":"Hong Kong Kowloon"}' \
+     http://34.42.53.73:5000/categorize
