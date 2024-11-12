@@ -1,0 +1,8 @@
+GCP VM Instant : jsontravelandmatch
+SSH Console at http://34.42.53.74
+
+$ source venv/bin/activate
+$ export FLASK_APP=JsonLearnAndMatch.py
+$ python3 -m flask run --host=0.0.0.0
+OR
+$ python3 JsonLearnAndMatch.py --host-0.0.0.0
